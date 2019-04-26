@@ -1,0 +1,63 @@
+.search_box{
+    height: 4.4rem;
+}
+.header{
+    padding: 0 1.2rem 1rem 1.2rem;
+    background: #fff;
+}
+.gome_logo{
+    float: left;
+    margin: 1rem 1rem 1rem 0.2rem;
+}
+.gome_logo a img{
+    width: auto;
+    height: 2.4rem;
+}
+.usr_bar{
+    float: right;
+}
+.usr_bar p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+}
+.usr_bar p a{
+    color: #666;
+    font-size: 1.4rem;
+    float: left;
+}
+.usr_bar p a img{
+    width: 2.2rem;
+    height: 1.95rem;
+}
+.usr_bar .cart{
+    margin-top: .2rem;
+    margin-right: 1.3rem;
+}
+.search{
+    margin-left: 3.8rem;
+    margin-right: 7.4rem;
+}
+.search_con{
+    height: 3rem;
+    padding-top: .7rem; 
+}
+.sea_con_style{
+    background: #f6f6f6;
+    overflow: hidden;
+    padding: .9rem 1rem;
+    border-radius: 22.5rem;
+}
+.search_con img{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-right: .3rem;
+    float: left;
+}
+.search_con input{
+    border: 0;
+    background: #f6f6f6;
+    float: left;
+    outline: 0;
+}

@@ -1,0 +1,153 @@
+/* 购物车 */
+.container{
+    margin-top: 1rem;
+}
+.module{
+    padding-left: 1rem;
+    margin-top: 1rem;
+    background: #f8f8f8;
+}
+.title{
+    height: 3rem;
+    line-height: 3rem;
+    padding-right: 1rem;
+    font-size: 1.4rem;
+    color: #333;
+    position: relative;
+}
+.store_name{
+    display: inline-block;
+}
+.store_edit{
+    font-size: 1.3rem;
+    color: #333;
+    float: right;
+}
+.store_edit span{
+    display: inline-block;
+    line-height: 2rem;
+}
+.store_edit span:nth-child(1){
+    border-right: 1px solid #e6e6e6; 
+    padding: 0 1.5rem;
+}
+.store_edit span:nth-child(2){
+    padding-left: 1.5rem; 
+}
+.freight_note{
+    height: 3rem;
+    font: 1.2rem;
+    line-height: 3rem;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+}
+.freight_note a{
+    color: #ff8000;
+}
+.freight_note::after{
+    content: '';
+    width: .6rem;
+    height: .6rem;
+    border-right: 1px solid #a2a4a6;
+    border-bottom: 1px solid #a2a4a6;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    transform: rotate(-42deg);
+}
+.shop{
+    background: #fff;
+}
+.shoplist{
+    padding: 1rem;
+}
+.shoplis_item{
+    display: flex;
+}
+.check_imp{
+    width: 2.5rem;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.con_right{
+    padding-right: .5rem;
+    display: flex;
+}
+.pic_img{
+    display: inline-block;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-right: .2rem;
+    flex-shrink: 0;
+}
+.pic_img img{
+    width: 100%;
+}
+.intro_con p:nth-child(2){
+    color: #999;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+.shop_price{
+    font-size: 1.4rem;
+    width: 48%;
+    vertical-align: middle;
+    display: inline-block;
+    color: #F20C59;
+}
+.shop_price em, .shop_buy_num em{
+    font-style: normal;
+}
+.shop_buy_num{
+    display: inline-block;
+    width: 7rem;
+    height: 2rem;
+    background: #FFF;
+    border: 1px solid #e4e4e4;
+    vertical-align: middle;
+    text-align: center;
+    float: right;
+    margin-right: .3rem;
+}
+.shop_buy_num em{
+    font-size: 1.8rem;
+    background: #f6f6f6;
+    color: #B3B3B3;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+.shop_count{
+    display: inline-block;
+    width: 2.4rem;
+    border: 0;
+    text-align: center;
+}
+input[type=checkbox]{
+    width: 1.6rem;
+    height: 1.6rem;
+    display: inline-block;
+    -webkit-appearance: none;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    outline: 0;
+    position: relative;
+    top: .2rem;
+    flex-shrink: 0;
+}
+input[type=checkbox]:checked{
+    background: #F20C59;
+}
+input[type=checkbox]:checked::after{
+    content: "";
+    display: block;
+    width: 1rem;
+    height: .5rem;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-42deg);
+    position: absolute;
+    top: .2rem;
+    left: .08rem;
+}
